@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en_us">
+    <head>
+        <link rel="stylesheet" href="eth-converter1.css">
+        <link rel="stylesheet" href="eth-converter2.css">
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       
+        <title> eth-converter </title>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="convert-section">
+        <header>
+            <p class="date"></p>
+            <img src="images/icony.png" class="icon">
+        </header>
+        <h1>Convert ethers</h1>
+        <div class="for-mobile">
+        <div class="eth">
+            <p>Eth</p>
+            <input type="number" class="ethers" placeholder="Ether unit (ETH)">
+        </div>
+        <div class="gw">
+            <p>Gwei</p>
+            <input type="number" class="gwei" placeholder="Gwei unit(Gwei)">
+        </div>
+        <div class="wie">
+            <p>Wei</p>
+            <input type="nuumber" class="wei" placeholder="Wei unit (wei)">
+        </div>
+        </div>
+        <div class="convert-section-1">
+            <input class="value" type="number">
+                <div class="eth-unit">
+                    <nav class="default">
+                    <img src="images/drop-down.png" class="drop-down-arrow">    <p class="p-eth">ether</p>
+                    </nav>
+                     <div class="spans">
+                    <div class="ethers"><span class="wei-units">ether</span></div>
+                    <div class="ethers"><span class="wei-units">Gwei</span></div>
+                    <div class="ethers"><span class="wei-units">wei</span></div>
+                    </div> 
+                </div>
+        </div>
+             <div class="convert-btn">
+                <img src="images/converter.png" class="convert-button">
+            </div>
+        </div>
+        <div class="result-section">
+            <input class="result-value" type="number">
+                <div class="eth-unit0">
+                    <nav class="default0">
+                    <img src="images/drop_down2.png" class="result-arrow">    <p class="p-wei">ether</p>
+                    </nav>
+                     <div class="spans0">
+                    <div class="ethers0"><span class="gwei-units">ether</span></div>
+                    <div class="ethers0"><span class="gwei-units">Gwei</span></div>
+                    <div class="ethers0"><span class="gwei-units">wei</span></div>
+                    </div> 
+                </div>
+        </div> 
+        <script src="eth-converter.js"></script>
+        <script src="eth-converter2.js"></script>
+    </body>
+</html>

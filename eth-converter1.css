@@ -1,0 +1,216 @@
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: darkgray;
+    display: grid;
+    justify-content: center;
+  }
+  body .convert-section {
+    display: grid;
+    grid-template-columns: auto;
+    width: 65vw;
+    height: 350px;
+    background-image: linear-gradient(to top right, rgb(230, 107, 107), rgb(236, 66, 66));
+  }
+  body .convert-section header {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+  body .convert-section header .date {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    justify-self: left;
+  }
+  body .convert-section header .icon {
+    width: 4vw;
+    justify-self: right;
+  }
+  body .convert-section h1 {
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.335);
+  }
+  body .convert-section .for-mobile {
+    display: none;
+  }
+  body .convert-section .convert-section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+  }
+  body .convert-section .convert-section-1 input {
+    width: 12vw;
+    height: 6vw;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    color: white;
+  }
+  body .convert-section .convert-section-1 input:focus {
+    outline: none;
+  }
+  body .convert-section .convert-section-1 .eth-unit {
+    border: none;
+    width: 15vw;
+    background-color: transparent;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 28px;
+  }
+  body .convert-section .convert-section-1 .default {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  body .convert-section .convert-section-1 .default img {
+    width: 2vw;
+    align-self: center;
+  }
+  body .convert-section .convert-section-1 .spans {
+    background-color: rgba(157, 70, 70, 0.259);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 28px;
+    border: none;
+    display: none;
+    flex-direction: column;
+    gap: 1.5vw;
+    border-radius: 10px;
+    margin-bottom: -5vw;
+    width: 13vw;
+    height: 12vw;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(1) {
+    display: grid;
+    justify-content: center;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(1) span {
+    color: rgba(250, 248, 248, 0.516);
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(1) span:hover {
+    color: white;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(2) {
+    display: grid;
+    justify-content: center;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(2) span {
+    color: rgba(250, 248, 248, 0.516);
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(2) span:hover {
+    color: white;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(3) {
+    display: grid;
+    justify-content: center;
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(3) span {
+    color: rgba(250, 248, 248, 0.516);
+  }
+  body .convert-section .convert-section-1 .spans .ethers:nth-of-type(3) span:hover {
+    color: white;
+  }
+  body .convert-btn {
+    display: grid;
+    width: 63vw;
+    margin-top: 3vw;
+  }
+  body .convert-btn img {
+    width: 4vw;
+    justify-self: right;
+    z-index: 1;
+  }
+  body .result-section {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+    width: 65vw;
+    height: 290px;
+  }
+  body .result-section input {
+    width: 12vw;
+    height: 6vw;
+    border-bottom: 3px solid rgb(239, 114, 114);
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    color: rgb(239, 114, 114);
+  }
+  body .result-section input:focus {
+    outline: none;
+  }
+  body .result-section .eth-unit0 {
+    border: none;
+    width: 15vw;
+    background-color: transparent;
+    color: rgb(239, 114, 114);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 28px;
+  }
+  body .result-section .default0 {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  body .result-section .default0 img {
+    width: 2vw;
+    align-self: center;
+  }
+  body .result-section .spans0 {
+    background-color: transparent;
+    color: rgb(239, 114, 114);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 28px;
+    border: none;
+    display: none;
+    flex-direction: column;
+    gap: 1.5vw;
+    border-radius: 10px;
+    width: 13vw;
+    height: 12vw;
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(1) {
+    display: grid;
+    justify-content: center;
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(1) span {
+    color: rgb(239, 114, 114);
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(1) span:hover {
+    color: rgb(244, 36, 36);
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(2) {
+    display: grid;
+    justify-content: center;
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(2) span {
+    color: rgb(239, 114, 114);
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(2) span:hover {
+    color: rgb(244, 36, 36);
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(3) {
+    display: grid;
+    justify-content: center;
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(3) span {
+    color: rgb(239, 114, 114);
+  }
+  body .result-section .spans0 .ethers0:nth-of-type(3) span:hover {
+    color: rgb(244, 36, 36);
+  }
+}/*# sourceMappingURL=eth-converter1.css.map */
